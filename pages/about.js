@@ -4,7 +4,7 @@ import { countState, userState } from "../components/atoms";
 
 const About = () => {
   const count = useRecoilValue(countState);
-  const user = useRecoilValue(useState);
+  const user = useRecoilValue(userState);
   return (
     <>
       <h1>About</h1>
